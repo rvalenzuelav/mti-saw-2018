@@ -1,0 +1,13 @@
+primerApellido
+segundoApelido
+fechaNacimiento
+fechaFallecimiento
+profesion
+gradoAcademico
+reseniaBiografica
+familiaJuventud
+estudiosVidalaboral
+trayectoriaPolíticaPublica
+actividadesComplementarias
+sitioWeb
+email

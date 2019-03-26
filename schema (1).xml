@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="DEFINIR"
+xmlns="DEFINIR"
+elementFormDefault="qualified">
+    
+<xs:element name="biografia">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="primerApellido" type="xs:string"/>
+                        <xs:element name="segundoApelido" type="xs:string"/>
+                        <xs:element name="fechaNacimiento" type="xs:date"/>
+                        <xs:element name="fechaFallecimiento" type="xs:date"/>
+                        <xs:element name="profesion" type="xs:string"/>
+                        <xs:element name="gradoAcademico" type="xs:string"/>
+                        <xs:element name="reseniaBiografica" type="xs:string"/>
+                        <xs:element name="familiaJuventud" type="xs:string"/>
+                        <xs:element name="estudiosVidalaboral" type="xs:string"/>
+                        <xs:element name="trayectoriaPolíticaPublica" type="xs:string"/>
+                        <xs:element name="actividadesComplementarias" type="xs:string"/>
+                        <xs:element name="sitioWeb" type="xs:string"/>
+                        <xs:element name="email" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

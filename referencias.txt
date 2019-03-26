@@ -1,0 +1,16 @@
+https://www.w3schools.com/xml/schema_schema.asp
+http://www.utilities-online.info/xsdvalidation/#.XHb7C1xKjIU
+
+
+
+
+------------------------------fuente biografias
+https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Jos%C3%A9_Kast_Sommerhoff
+https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Luciano_Cruz_Coke_Carvallo
+https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Camila_Antonia_Amaranta_Vallejo_Dowling
+
+
+------------------------------fuente plantilla
+https://startbootstrap.com/themes/resume/
+
+
