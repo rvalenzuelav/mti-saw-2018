@@ -1,0 +1,51 @@
+#políticos Chilenos millennials
+SELECT DISTINCT ?pol_ticoLabel ?fecha_de_nacimiento WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?pol_tico wdt:P106 wd:Q82955.
+  ?pol_tico wdt:P27 wd:Q298.
+  ?pol_tico wdt:P569 ?fecha_de_nacimiento.
+  filter (?fecha_de_nacimiento > "1980-01-01T00:00:00Z"^^xsd:dateTime && ?fecha_de_nacimiento < "1994-01-01T00:00:00Z"^^xsd:dateTime)
+}
+
+
+#políticos Chilenos Generación X
+SELECT DISTINCT ?pol_ticoLabel ?fecha_de_nacimiento WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?pol_tico wdt:P106 wd:Q82955.
+  ?pol_tico wdt:P27 wd:Q298.
+  ?pol_tico wdt:P569 ?fecha_de_nacimiento.
+  filter (?fecha_de_nacimiento > "1968-01-01T00:00:00Z"^^xsd:dateTime && ?fecha_de_nacimiento < "1981-01-01T00:00:00Z"^^xsd:dateTime)
+}
+
+#políticos Chilenos Baby Boom
+SELECT DISTINCT ?pol_ticoLabel ?fecha_de_nacimiento WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?pol_tico wdt:P106 wd:Q82955.
+  ?pol_tico wdt:P27 wd:Q298.
+  ?pol_tico wdt:P569 ?fecha_de_nacimiento.
+  filter (?fecha_de_nacimiento > "1948-01-01T00:00:00Z"^^xsd:dateTime && ?fecha_de_nacimiento < "1969-01-01T00:00:00Z"^^xsd:dateTime)
+}
+
+#políticos del PC
+SELECT DISTINCT ?pol_tico ?pol_ticoLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?pol_tico wdt:P106 wd:Q82955.
+  ?pol_tico wdt:P27 wd:Q298.
+    ?pol_tico wdt:P102 wd:Q317952.
+}
+
+#políticos de RD
+SELECT DISTINCT ?pol_tico ?pol_ticoLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?pol_tico wdt:P106 wd:Q82955.
+  ?pol_tico wdt:P27 wd:Q298.
+  ?pol_tico wdt:P102 wd:Q6107151.
+}
+
+#políticos de UDI
+SELECT DISTINCT ?pol_tico ?pol_ticoLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?pol_tico wdt:P106 wd:Q82955.
+  ?pol_tico wdt:P27 wd:Q298.
+  ?pol_tico wdt:P102 wd:Q602131.
+}

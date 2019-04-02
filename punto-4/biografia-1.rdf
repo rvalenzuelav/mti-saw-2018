@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:e="http://www.mti-saw-2018.org#">
+  <rdf:Description rdf:about="http://www.mti-saw-2018.org#biografia-1">
+    <e:nombre>Felipe José</e:nombre>
+    <e:primerApellido>Kast</e:primerApellido>
+    <e:segundoApellido>Sommerhoff</e:segundoApellido>
+    <e:fechaNacimiento>1977-06-09</e:fechaNacimiento>
+    <e:fechaFallecimiento></e:fechaFallecimiento>
+    <e:profesion>Ingeniero comercial</e:profesion>
+    <e:gradoAcademico>Doctor en Políticas Públicas; Magíster en Economía</e:gradoAcademico>
+    <e:reseniaBiografica>Felipe Kast (Santiago, 9 de junio de 1977). Ingeniero comercial, economista y político del Partido Evolución Política (Evópoli). Senador por la 11° Circunscripción, Región de la Araucanía, período 2018-2026. Diputado por el Distrito N° 22, Región Metropolitana, período 2014-2018. Ministro de Planificación entre 2010 y 2011.</e:reseniaBiografica>
+    <e:familiaJuventud>Nació en Santiago el 9 de junio de 1977. Hijo de Michael Kast Rist, Ministro de Odeplan (1978), del Trabajo (1980) y Presidente del Banco Central (1982), durante el gobierno militar del General Augusto Pinochet y Cecilia Christine Sommerhoff Hyde. Hermano de Pablo Kast Sommerhoff, Diputado por el 6° Distrito, Región de Valparaíso, y sobrino del ex Diputado y ex Candidato Presidencial José Antonio Kast. 
+      Casado con Emelia Puga Bermúdez y padre de tres hijos: Miguel, Emelia y Pedro.
+    </e:familiaJuventud>
+    <e:estudiosVidalaboral>
+      Egresó del Colegio Verbo Divino de Santiago, en el año 1995. Cursó sus estudios universitarios en la Pontificia Universidad Católica de Chile, en la carrera de Ingeniería Comercial. En forma paralela, comenzó su vida laboral en la Dirección Pastoral de la universidad y en "Ancora", proyecto en el que la Universidad Católica entregaba servicios de salud primaria en comunas de bajos recursos.
+      En 1999, viajó de intercambio a Cuba para estudiar Economía y Sociología en la Universidad de La Habana. Retornó a Chile en 2000 para terminar y egresar de la carrera de Ingeniería Comercial. Posteriormente, obtuvo un Magíster en Economía con mención en Políticas Públicas en su misma casa de estudios.
+      En 2004, viajó a Estados Unidos para cursar un Doctorado en Políticas Públicas en la Universidad de Harvard. Por su trabajo académico obtuvo la beca Inequality and Social Policy Multidisciplinary Program de la Universidad de Harvard. Vivió en Estados Unidos hasta el 2009 donde fue contratado como consultor en políticas sociales para el Banco Mundial y en el Centro para el Desarrollo Internacional de la Universidad de Harvard.
+      Formó parte del Grupo de Estudios para la Superación de la Pobreza (Poverty Action Lab), desarrollado por el Massachusetts Institute of Technology y la Universidad Católica de Chile.
+      Fue profesor del Instituto de Economía de la Pontificia Universidad Católica de Chile.
+      En agosto de 2009, se incorporó al Instituto Libertad y Desarrollo como investigador y director del Área Social. En esa institución creó el Centro de Ideas Públicas, encargado de realizar seminarios y comisiones de trabajo en temas sociales.
+    </e:estudiosVidalaboral>
+    <e:trayectoriaPolíticaPublica>
+      En el año 2009, participó activamente en la campaña presidencial de Sebastián Piñera Echeñique para las Elecciones Presidenciales de ese año.
+      Después del terremoto de febrero de 2010, que afectó la zona Centro Sur de Chile, el Presidente Sebastián Piñera Echeñique lo designó coordinador general de la campaña "Levantemos Chile", siendo encargado de liderar las políticas del Gobierno para enfrentar los efectos del terremoto.
+      El 11 de marzo de 2010[1], fue llamado por el Presidente Sebastián Piñera a integrarse a su gabinete como ministro de Planificación, permaneciendo en el cargo hasta el 18 julio de 2011[2].
+      El 4 de agosto de 2011, el Presidente Sebastían Piñera lo designa Delegado Presidencial para las Aldeas y Campamentos de Emergencia[3], que se formaron en respuesta al terremoto del 27 febrero de 2010. A fines de 2012 presentó su renuncia con el fin de dedicarse a Evolución Política (Evopoli), movimiento que ayudó a fundar y que reúne a políticos independientes de centro derecha.
+      El 21 de marzo de 2015, fue electo presidente del Partido Evolución Política (Evópoli).
+      El 2 de julio de 2017, participó como precandidato presidencial en en las elecciones primarias del pacto Chile Vamos, obteniendo 218.682 sufragios, equivalentes al 14% de los votos del sector[4].
+      Tras las elecciones primarias, participó el 19 de noviembre por un cupo en el Senado de la República, en representación de Evopoli, por la 11a Circunscripción Senatorial, Región de La Araucanía, obteniendo 63.605 votos, equivalentes al 18,83% de los sufragios válidamente emitidos[5].
+    </e:trayectoriaPolíticaPublica>
+    <e:actividadesComplementarias></e:actividadesComplementarias>
+    <e:sitioWeb>http://araucania.felipekast.cl/</e:sitioWeb>
+    <e:email>fkast@senado.cl</e:email>
+    <e:foto>felipeKast.jpeg</e:foto>
+  </rdf:Description>
+</rdf:RDF>

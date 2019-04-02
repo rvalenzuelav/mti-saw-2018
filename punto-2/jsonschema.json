@@ -1,0 +1,186 @@
+  1 {
+  2   "definitions": {},
+  3   "$schema": "http://json-schema.org/draft-07/schema#",
+  4   "$id": "http://MTI-2018/root.json",
+  5   "type": "object",
+  6   "title": "biografias Schema",
+  7   "required": [
+  8     "biografia"
+  9   ],
+ 10   "properties": {
+ 11     "biografia": {
+ 12       "$id": "#/properties/biografia",
+ 13       "type": "object",
+ 14       "title": "Biografia Schema",
+ 15       "required": [
+ 16         "nombre",
+ 17         "primerApellido",
+ 18         "segundoApelido",
+ 19         "fechaNacimiento",
+ 20         "fechaFallecimiento",
+ 21         "profesion",
+ 22         "gradoAcademico",
+ 23         "reseniaBiografica",
+ 24         "familiaJuventud",
+ 25         "estudiosVidalaboral",
+ 26         "trayectoriaPolíticaPublica",
+ 27         "actividadesComplementarias",
+ 28         "sitioWeb",
+ 29         "email",
+ 30         "foto"
+ 31       ],
+ 32       "properties": {
+ 33         "nombre": {
+ 34           "$id": "#/properties/biografia/properties/nombre",
+ 35           "type": "string",
+ 36           "title": "Nombre Schema",
+ 37           "default": "",
+ 38           "examples": [
+ 39             "Gabriel"
+ 40           ],
+ 41           "pattern": "^(.*)$"
+ 42         },
+ 43         "primerApellido": {
+ 44           "$id": "#/properties/biografia/properties/primerApellido",
+ 45           "type": "string",
+ 46           "title": "Primerapellido Schema",
+ 47           "default": "",
+ 48           "examples": [
+ 49             "Boric"
+ 50           ],
+ 51           "pattern": "^(.*)$"
+ 52         },
+ 53         "segundoApelido": {
+ 54           "$id": "#/properties/biografia/properties/segundoApelido",
+ 55           "type": "string",
+ 56           "title": "Segundoapelido Schema",
+ 57           "default": "",
+ 58           "examples": [
+ 59             "Font"
+ 60           ],
+ 61           "pattern": "^(.*)$"
+ 62         },
+ 63         "fechaNacimiento": {
+ 64           "$id": "#/properties/biografia/properties/fechaNacimiento",
+ 65           "type": "string",
+ 66           "title": "Fechanacimiento Schema",
+ 67           "default": "",
+ 68           "examples": [
+ 69             "1986-02-11"
+ 70           ],
+ 71           "pattern": "^(.*)$"
+ 72         },
+ 73         "fechaFallecimiento": {
+ 74           "$id": "#/properties/biografia/properties/fechaFallecimiento",
+ 75           "type": "string",
+ 76           "title": "Fechafallecimiento Schema",
+ 77           "default": "",
+ 78           "examples": [
+ 79             ""
+ 80           ],
+ 81           "pattern": "^(.*)$"
+ 82         },
+ 83         "profesion": {
+ 84           "$id": "#/properties/biografia/properties/profesion",
+ 85           "type": "string",
+ 86           "title": "Profesion Schema",
+ 87           "default": "",
+ 88           "examples": [
+ 89             "Egresado de Derecho"
+ 90           ],
+ 91           "pattern": "^(.*)$"
+ 92         },
+ 93         "gradoAcademico": {
+ 94           "$id": "#/properties/biografia/properties/gradoAcademico",
+ 95           "type": "string",
+ 96           "title": "Gradoacademico Schema",
+ 97           "default": "",
+ 98           "examples": [
+ 99             ""
+100           ],
+101           "pattern": "^(.*)$"
+102         },
+103         "reseniaBiografica": {
+104           "$id": "#/properties/biografia/properties/reseniaBiografica",
+105           "type": "string",
+106           "title": "Reseniabiografica Schema",
+107           "default": "",
+108           "examples": [
+109             "Gabriel Boric (Punta Arenas, 11 de febrero de 1986). Egresado de Derecho y político del Movimiento Autonomista. Diputado por el 28º Distrito, Región de Magallanes y Antártica Chilena, período 2018-2022. Diputado por el Distrito Nº 60, Región de Magallanes y la Antártica Chilena, período 2014-2018."
+110           ],
+111           "pattern": "^(.*)$"
+112         },
+113         "familiaJuventud": {
+114           "$id": "#/properties/biografia/properties/familiaJuventud",
+115           "type": "string",
+116           "title": "Familiajuventud Schema",
+117           "default": "",
+118           "examples": [
+119             "Nació el 11 de febrero de 1986, en Punta Arenas. Hijo de Luis Javier Boric Scarpa y María Soledad Font Aguilera."
+120           ],
+121           "pattern": "^(.*)$"
+122         },
+123         "estudiosVidalaboral": {
+124           "$id": "#/properties/biografia/properties/estudiosVidalaboral",
+125           "type": "string",
+126           "title": "Estudiosvidalaboral Schema",
+127           "default": "",
+128           "examples": [
+129             "Entre 1991 y 2003, cursó la educación básica y media en The British School de Punta Arenas [2].\n\nEl año 2004 ingresó a la carrera de Derecho en la Universidad de Chile, carrera de la que es egresado. Durante su período como estudiante, fue ayudante de las cátedras de Historia Institucional de Chile, Teoría de la Justicia y Derecho Internacional de los Derechos Humanos."
+130           ],
+131           "pattern": "^(.*)$"
+132         },
+133         "trayectoriaPolíticaPublica": {
+134           "$id": "#/properties/biografia/properties/trayectoriaPolíticaPublica",
+135           "type": "string",
+136           "title": "Trayectoriapolíticapublica Schema",
+137           "default": "",
+138           "examples": [
+139             "Entre los años 1999 y 2000, participó en la refundación de la Federación de Estudiantes Secundarios de Punta Arenas.\n\nEn la Universidad de Chile ingresó al colectivo político Izquierda Autónoma. En 2016, fundó el Movimiento Autonomista.\n\nEn 2008, resultó electo consejero de la Federación de Estudiantes de la Universidad de Chile (Fech). Al año siguiente, en 2009, fue elegido presidente del Centro de Estudiantes de Derecho de la Universidad de Chile. Entre los años 2010 y 2011, se desempeñó como senador universitario de la Universidad de Chile [4].\n\nDurante 2012, tras el triunfo de la lista “Creamos Izquierda”, asumió como presidente de la Fech, sucediendo en el cargo a Camila Vallejo Dowling. Durante su gestión, lidera el movimiento estudiantil que comenzó en el año 2011, y es uno de los Voceros de la Confederación de Estudiantes de Chile, Confech."
+140           ],
+141           "pattern": "^(.*)$"
+142         },
+143         "actividadesComplementarias": {
+144           "$id": "#/properties/biografia/properties/actividadesComplementarias",
+145           "type": "string",
+146           "title": "Actividadescomplementarias Schema",
+147           "default": "",
+148           "examples": [
+149             ""
+150           ],
+151           "pattern": "^(.*)$"
+152         },
+153         "sitioWeb": {
+154           "$id": "#/properties/biografia/properties/sitioWeb",
+155           "type": "string",
+156           "title": "Sitioweb Schema",
+157           "default": "",
+158           "examples": [
+159             "http://www.gabrielboric.cl/"
+160           ],
+161           "pattern": "^(.*)$"
+162         },
+163         "email": {
+164           "$id": "#/properties/biografia/properties/email",
+165           "type": "string",
+166           "title": "Email Schema",
+167           "default": "",
+168           "examples": [
+169             "gabriel.boric@congreso.cl"
+170           ],
+171           "pattern": "^(.*)$"
+172         },
+173         "foto": {
+174           "$id": "#/properties/biografia/properties/foto",
+175           "type": "string",
+176           "title": "Foto Schema",
+177           "default": "",
+178           "examples": [
+179             "gabrielBoric.jpeg"
+180           ],
+181           "pattern": "^(.*)$"
+182         }
+183       }
+184     }
+185   }
+186 }

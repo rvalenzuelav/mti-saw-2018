@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE biografia SYSTEM "schema.xsd">
+
+<!-- 
+
+  Comentarios
+   
+-->
+
+<biografia>
+  <nombre>Camila Antonia Amaranta</nombre>
+  <primerApellido>Vallejo</primerApellido>
+  <segundoApelido>Dowling</segundoApelido>
+  <fechaNacimiento>1988-04-28</fechaNacimiento>
+  <fechaFallecimiento></fechaFallecimiento>
+  <profesion>Geógrafa</profesion>
+  <gradoAcademico></gradoAcademico>
+  <reseniaBiografica>Camila Vallejo (Santiago, 28 de abril de 1988). Geógrafa y política del Partido Comunista de Chile. Diputada por el 12° Distrito, Región Metropolitana de Santiago, por el periodo 2018-2022. Diputada por el Distrito Nº 26, Región Metropolitana de Santiago, desde 2014 al 2018. Presidenta de la Federación de Estudiantes de la Universidad de Chile, periodo 2010-2011.</reseniaBiografica>
+  <familiaJuventud>CNació el 28 de abril de 1988, en Santiago. Hija de Reinaldo Vallejo Navarro y Mariela Dowling Leal. Bisnieta del Diputado Jorge Alejandro Dowling Desmadryl. Tiene una hija.</familiaJuventud>
+  <estudiosVidalaboral>Cursó la enseñanza media en el Colegio Raimapu de La Florida. En el año 2006 ingresó a la carrera de Geografía, en la Facultad de Arquitectura y Urbanismo de la Universidad de Chile, titulándose el año 2013.</estudiosVidalaboral>
+  <trayectoriaPolíticaPublica>Sus inicios en política partidaria comenzaron el año 2007, al inscribirse como militante de las Juventudes Comunistas de Chile. En octubre del año 2011, en el XIII Congreso Nacional de la JJ.CC., fue nombrada miembro del Comité Central de la colectividad[1].
+
+A nivel universitario, el año 2008 fue electa consejera de la Fech y vicepresidenta del Centro de Estudiantes de Geografía de la Universidad de Chile. En noviembre de 2010 triunfó en las elecciones de la Federación -apoyada por la Lista de las Juventudes Comunistas, Nueva Izquierda Universitaria e independientes- por lo que entre 2010 y 2011 ejerció el cargo de presidenta de la Fech.
+
+Junto a otros dirigentes estudiantiles, como Giorgio Jackson de la Universidad Católica y Camilo Ballesteros de la Universidad de Santiago de Chile, integró el movimiento universitario del año 2011, lo que le valió ser reconocida a nivel nacional como internacional como una de las líderes de la juventud chilena.
+
+En 2011 se presentó a la reelección de la mesa de la Fech, resultando elegida vicepresidenta, directiva que encabezó en la presidencia el líder del Movimiento de Izquierda Autónoma, Gabriel Boric Font.
+
+En noviembre del año 2012 fue proclamada precandidata a Diputada por el Partido Comunista de Chile. Finalmente, en enero de 2013 fue oficialmente confirmada por el presidente del PC, Guillermo Teillier, como candidata a Diputada por La Florida.</trayectoriaPolíticaPublica>
+<actividadesComplementarias></actividadesComplementarias>
+    <sitioWeb>http://www.camilavallejodiputada.cl/</sitioWeb>
+  <email>camila.vallejo@congreso.cl</email>
+  <foto>camilaVallejo.jpg</foto>
+</biografia>
