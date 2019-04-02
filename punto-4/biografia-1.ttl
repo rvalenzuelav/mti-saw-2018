@@ -1,36 +1,18 @@
 @prefix :      <http://example.org/> .
 @prefix schema: <http://schema.org/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix congre: <http://congreso.cl> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-:Felipe  schema:birthDate  "1977-06-09"^^xsd:date ;
+:trabaja  rdfs:domain  :Diputado ;
+        rdfs:range   :Lugar .
+
+:congreso  a    :Lugar .
+
+:felipe  :trabaja         :congreso ;
+        schema:birthDate  "1977-06-09"^^xsd:date ;
+        schema:email      <mailto:fkast@senado.cl> ;
+        schema:lastname   "Kast" ;
         schema:name       "Felipe José" .
-        schema:lastname       "Kast" .
-        schema:email <mailto:fkast@senado.cl> .
 
-congre:Felipe  a  congre:Diputado .
-
-congre:Diputado  rdfs:subClassOf  congre:Persona .
-
-congre:biografia-1  a  congre:Persona .
-
-
-@prefix e:     <http://www.mti-saw-2018.org#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix congre: <http://congreso.cl> .
-
-congre:Diputado rdfs:subClassOf  uni:Persona .
-e:biografia-1  a                      e:Persona ;
-        e:email                       "fkast@senado.cl" ;
-        e:fechaFallecimiento          "" ;
-        e:fechaNacimiento             "1977-06-09" ;
-        e:foto                        "felipeKast.jpeg" ;
-        e:gradoAcademico              "Doctor en Políticas Públicas; Magíster en Economía" ;
-        e:nombre                      "Felipe José" ;
-        e:primerApellido              "Kast" ;
-        e:segundoApellido             "Sommerhoff" ;
-        e:profesion                   "Ingeniero comercial" ;
-        e:sitioWeb                    "http://araucania.felipekast.cl/" .
+:Diputado  rdfs:subClassOf  :Persona .

@@ -151,6 +151,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+/*cambio de color en pantalla pequeña*/
 }
 
 @media (min-width: 992px) {
@@ -161,7 +162,7 @@ section.resume-section .resume-item .resume-date {
 }
 /*modificación color y borde*/
 .bg-primary {
-  background-color: #ffffff !important;
+  background-color: #ff0000 !important;
   border: rgb(223, 0, 0) 8px outset;
 }
 
