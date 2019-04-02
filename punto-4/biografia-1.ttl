@@ -6,8 +6,8 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Felipe  schema:birthDate  "1977-06-09"^^xsd:date ;
-        schema:name       "Felipe José" .
-        schema:lastname       "Kast" .
+        schema:name       "Felipe José" ;
+        schema:lastname       "Kast" ;
         schema:email <mailto:fkast@senado.cl> .
 
 congre:Felipe  a  congre:Diputado .
