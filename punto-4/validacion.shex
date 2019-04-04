@@ -4,7 +4,7 @@ PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
 prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
 prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-:Diputado EXTRA a {
+:Congresista EXTRA a {
  a           [:Diputado]? ;
  schema:name xsd:string ;
  schema:lastname xsd:string ;

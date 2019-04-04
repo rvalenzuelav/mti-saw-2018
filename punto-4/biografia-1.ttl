@@ -11,8 +11,9 @@
 
 :felipe  :trabaja         :congreso ;
         schema:birthDate  "1977-06-09"^^xsd:date ;
+        schema:deathDate  "" ^^xsd:date ;
         schema:email      <mailto:fkast@senado.cl> ;
         schema:lastname   "Kast" ;
         schema:name       "Felipe José" .
 
-:Diputado  rdfs:subClassOf  :Persona .
+:Congresista  rdfs:subClassOf  :Persona .
