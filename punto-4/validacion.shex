@@ -5,12 +5,16 @@ prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
 prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix congre: <http://www.congreso.cl/> 
 
-:Congresista EXTRA a {
+:Persona EXTRA a {
  a           [:Diputado]? ;
- schema:name xsd:string ;
- schema:lastname xsd:string ;
- schema:birthDate xsd:date;
- schema:deathDate xsd:date  ?  ;
+ schema:nombre xsd:string ;
+ schema:primerApellido xsd:string MAXLENGTH 20;
+ schema:segundoApellido xsd:string MAXLENGTH 20; 
+ schema:profesion xsd:string MAXLENGTH 20; 
+ schema:gradoAcademico xsd:string MAXLENGTH 50; 
+ schema:reseniaBiografica xsd:string MAXLENGTH 450; 
+ schema:fechaNacimiento xsd:date;
+ schema:fechaFallecimiento xsd:date  ?  ;
  :trabaja    @:Lugar*
 }
 
