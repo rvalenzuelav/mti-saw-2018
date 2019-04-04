@@ -7,10 +7,14 @@ prefix congre: <http://www.congreso.cl/>
 
 :Congresista EXTRA a {
  a           [:Diputado]? ;
- schema:name xsd:string ;
- schema:lastname xsd:string ;
- schema:birthDate xsd:date;
- schema:deathDate xsd:date  ?  ;
+ schema:nombre xsd:string ;
+ schema:primerApellido xsd:string ;
+ schema:segundoApellido xsd:string ; 
+ schema:profesion xsd:string ; 
+ schema:gradoAcademico xsd:string ; 
+ schema:reseniaBiografica xsd:string ; 
+ schema:fechaNacimiento xsd:date;
+ schema:fechaFallecimiento xsd:date  ?  ;
  :trabaja    @:Lugar*
 }
 
