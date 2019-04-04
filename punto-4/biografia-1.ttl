@@ -1,19 +1,19 @@
 @prefix :      <http://example.org/> .
 @prefix schema: <http://schema.org/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix congre: <http://www.congreso.cl/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-:trabaja  rdfs:domain  :Diputado ;
-        rdfs:range   :Lugar .
+congre:trabaja  rdfs:domain  congre:Diputado ;
+        rdfs:range   congre:Lugar .
 
-:congreso  a    :Lugar .
+congre:congreso  a  congre:Lugar .
 
-:felipe  :trabaja         :congreso ;
-        schema:birthDate  "1977-06-09"^^xsd:date ;
-        schema:deathDate  "" ^^xsd:date ;
+congre:felipe  schema:birthDate  "1977-06-09"^^xsd:date ;
         schema:email      <mailto:fkast@senado.cl> ;
         schema:lastname   "Kast" ;
-        schema:name       "Felipe José" .
+        schema:name       "Felipe José" ;
+        congre:trabaja    congre:congreso .
 
-:Congresista  rdfs:subClassOf  :Persona .
+congre:Congresista  rdfs:subClassOf  congre:Persona .
