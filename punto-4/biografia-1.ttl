@@ -12,13 +12,14 @@ congre:congreso  a  congre:Lugar .
 
 congre:felipe  schema:email       <mailto:fkast@senado.cl> ;
         schema:fechaNacimiento    "1977-06-09"^^xsd:date ;
+        schema:foto               "felipeKast.jpeg" ;
         schema:gradoAcademico     "Doctor en Políticas Públicas; Magíster en Economía" ;
         schema:nombre             "Felipe José" ;
         schema:primerApellido     "Kast" ;
         schema:profesion          "Ingeniero comercial" ;
         schema:reseniaBiografica  "Felipe Kast (Santiago, 9 de junio de 1977). Ingeniero comercial, economista y político del Partido Evolución Política (Evópoli). Senador por la 11° Circunscripción, Región de la Araucanía, período 2018-2026. Diputado por el Distrito N° 22, Región Metropolitana, período 2014-2018. Ministro de Planificación entre 2010 y 2011." ;
         schema:segundoApellido    "Sommerhoff" ;
-        schema:sitioWeb           "http://araucania.felipekast.cl/" ; 
+        schema:sitioWeb           "http://araucania.felipekast.cl/" ;
         congre:trabaja            congre:congreso .
 
 congre:Congresista  rdfs:subClassOf  congre:Persona .

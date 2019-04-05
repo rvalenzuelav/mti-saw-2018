@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" ?><rdf:RDF	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"	xmlns:skos="http://www.w3.org/2004/02/skos/core#"	xmlns:dc="http://purl.org/dc/elements/1.1/"	xmlns:foaf="http://xmlns.com/foaf/0.1/"	xmlns:bcnbio="http://datos.bcn.cl/ontologies/bcn-biographies#"	xmlns:ns6="https://www.wikidata.org/wiki/Property:" >  <rdf:Description rdf:about="http://datos.bcn.cl/recurso/persona/4536">    <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#ResponsibleEntity" />    <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q5" />    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabriel Boric Font</rdfs:label>    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabriel Boric Font</skos:prefLabel>    <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4536</dc:identifier>    <foaf:givenName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabriel</foaf:givenName>    <bcnbio:profession rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egresado de Derecho</bcnbio:profession>    <bcnbio:hasBorn rdf:resource="http://datos.bcn.cl/recurso/persona/4536/nacimiento" />    <bcnbio:hasParliamentaryAppointment rdf:resource="http://datos.bcn.cl/recurso/persona/4536/cargo/10316" />    <bcnbio:hasParliamentaryAppointment rdf:resource="http://datos.bcn.cl/recurso/persona/4536/cargo/10478" />    <bcnbio:hasPositionPeriod rdf:resource="http://datos.bcn.cl/recurso/persona/4536/cargo/10316" />    <bcnbio:hasPositionPeriod rdf:resource="http://datos.bcn.cl/recurso/persona/4536/cargo/10478" />    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabriel Boric Font</foaf:name>    <foaf:isPrimaryTopicOf rdf:resource="http://www.gabrielboric.cl/" />    <bcnbio:nationality rdf:resource="http://datos.bcn.cl/recurso/pais/chile" />    <bcnbio:surnameOfMother rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Font</bcnbio:surnameOfMother>    <foaf:depiction rdf:resource="https://www.bcn.cl/laborparlamentaria/imagen/4536.jpg" />    <bcnbio:surnameOfFather rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boric</bcnbio:surnameOfFather>    <bcnbio:bcnPage rdf:resource="https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Boric_Font" />    <bcnbio:twitterAccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gabrielboric</bcnbio:twitterAccount>    <ns6:P21 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hombre</ns6:P21>    <ns6:P856 rdf:resource="http://www.gabrielboric.cl/" />    <bcnbio:lastUpdate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T18:44:31-03:00</bcnbio:lastUpdate>    <bcnbio:hasMilitancy rdf:resource="http://datos.bcn.cl/recurso/persona/4536/militancia/11056" />    <bcnbio:hasMilitancy rdf:resource="http://datos.bcn.cl/recurso/persona/4536/militancia/11055" />    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hombre</foaf:gender>    <foaf:img rdf:resource="https://www.bcn.cl/laborparlamentaria/imagen/4536.jpg" />    <foaf:thumbnail rdf:resource="https://www.bcn.cl/laborparlamentaria/imagen/110x110/4536.jpg" />    <bcnbio:idCamaraDeDiputados rdf:datatype="http://www.w3.org/2001/XMLSchema#string">972</bcnbio:idCamaraDeDiputados>    <ns6:P2002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gabrielboric</ns6:P2002>  </rdf:Description></rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://example.org/"
+    xmlns:congre="http://www.congreso.cl/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://www.congreso.cl/Congresista">
+    <rdfs:subClassOf rdf:resource="http://www.congreso.cl/Persona"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.congreso.cl/gabriel">
+    <schema:email rdf:resource="mailto:gabriel.boric@congreso.cl"/>
+    <congre:trabaja>
+      <congre:Lugar rdf:about="http://www.congreso.cl/congreso"/>
+    </congre:trabaja>
+    <schema:reseniaBiografica>Gabriel Boric (Punta Arenas, 11 de febrero de 1986). Egresado de Derecho y político del Movimiento Autonomista. Diputado por el 28º Distrito, Región de Magallanes y Antártica Chilena, período 2018-2022. Diputado por el Distrito Nº 60, Región de Magallanes y la Antártica Chilena, período 2014-2018.</schema:reseniaBiografica>
+    <schema:profesion>Egresado de Derecho</schema:profesion>
+    <schema:segundoApellido>Font</schema:segundoApellido>
+    <schema:fechaNacimiento rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1986-02-11</schema:fechaNacimiento>
+    <schema:primerApellido>Boric</schema:primerApellido>
+    <schema:foto>gabrielBoric.jpeg</schema:foto>
+    <schema:nombre>Gabriel</schema:nombre>
+    <schema:sitioWeb>http://www.gabrielboric.cl/</schema:sitioWeb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.congreso.cl/trabaja">
+    <rdfs:range rdf:resource="http://www.congreso.cl/Lugar"/>
+    <rdfs:domain rdf:resource="http://www.congreso.cl/Diputado"/>
+  </rdf:Description>
+</rdf:RDF>

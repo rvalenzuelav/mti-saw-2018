@@ -1,0 +1,25 @@
+@prefix :      <http://example.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix congre: <http://www.congreso.cl/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+congre:trabaja  rdfs:domain  congre:Diputado ;
+        rdfs:range   congre:Lugar .
+
+congre:congreso  a  congre:Lugar .
+
+congre:luciano  schema:email       <mailto:luciano.cruz-coke@congreso.cl> ;
+        schema:fechaNacimiento    "1970-07-01"^^xsd:date ;
+        schema:foto               "lucianoCruzCoke.jpeg" ;
+        schema:nombre             "Luciano" ;
+        schema:primerApellido     "Cruz-Coke" ;
+        schema:profesion          "Actor" ;
+        schema:gradoAcademico     "Licenciatura en Cine Documental" ;
+        schema:reseniaBiografica  "Luciano Cruz Coke (Santiago, 1 de julio de 1970). Actor y político del Partido Evolución Política (Evópoli). Diputado por el 10° Distrito por el periodo 2018-2022. Ministro Presidente del Consejo Nacional de la Cultura y las Artes durante el primer gobierno de Sebastián Piñera Echenique, entre marzo de 2010 y junio de 2013." ;
+        schema:segundoApellido    "Carvallo" ;
+        schema:sitioWeb           "http://www.lucianocruzcoke.cl/" ;
+        congre:trabaja            congre:congreso .
+
+congre:Congresista  rdfs:subClassOf  congre:Persona .

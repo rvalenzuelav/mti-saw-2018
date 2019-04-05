@@ -11,10 +11,12 @@ prefix congre: <http://www.congreso.cl/>
  schema:primerApellido xsd:string MAXLENGTH 20;
  schema:segundoApellido xsd:string MAXLENGTH 20; 
  schema:profesion xsd:string MAXLENGTH 20; 
- schema:gradoAcademico xsd:string MAXLENGTH 50; 
+ schema:gradoAcademico xsd:string MAXLENGTH 50 ?; 
  schema:reseniaBiografica xsd:string MAXLENGTH 450; 
  schema:fechaNacimiento xsd:date;
  schema:fechaFallecimiento xsd:date  ?  ;
+ schema:sitioWeb xsd:string /^http:+/i/.[a-z]//$/ ;
+ schema:foto xsd:string /jpeg//$/ ;
  :trabaja    @:Lugar*
 }
 

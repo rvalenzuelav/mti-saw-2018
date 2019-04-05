@@ -1,0 +1,24 @@
+@prefix :      <http://example.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix congre: <http://www.congreso.cl/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+congre:trabaja  rdfs:domain  congre:Diputado ;
+        rdfs:range   congre:Lugar .
+
+congre:congreso  a  congre:Lugar .
+
+congre:camila  schema:email       <mailto:camila.vallejo@congreso.cl> ;
+        schema:fechaNacimiento    "1988-04-28"^^xsd:date ;
+        schema:foto               "camilaVallejo.jpeg" ;
+        schema:nombre             "Camila Antonia Amaranta" ;
+        schema:primerApellido     "Vallejo" ;
+        schema:profesion          "Geógrafa" ;
+        schema:reseniaBiografica  "Camila Vallejo (Santiago, 28 de abril de 1988). Geógrafa y política del Partido Comunista de Chile. Diputada por el 12° Distrito, Región Metropolitana de Santiago, por el periodo 2018-2022. Diputada por el Distrito Nº 26, Región Metropolitana de Santiago, desde 2014 al 2018. Presidenta de la Federación de Estudiantes de la Universidad de Chile, periodo 2010-2011." ;
+        schema:segundoApellido    "Dowling" ;
+        schema:sitioWeb           "http://www.camilavallejodiputada.cl/" ;
+        congre:trabaja            congre:congreso .
+
+congre:Congresista  rdfs:subClassOf  congre:Persona .

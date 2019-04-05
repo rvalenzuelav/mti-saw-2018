@@ -1,1 +1,78 @@
-{  "http://datos.bcn.cl/recurso/persona/4536" : { "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { "type" : "uri", "value" : "http://purl.org/vocab/frbr/core#ResponsibleEntity" } ,      { "type" : "uri", "value" : "https://www.wikidata.org/wiki/Q5" } ,      { "type" : "uri", "value" : "http://xmlns.com/foaf/0.1/Person" } ] ,    "http://www.w3.org/2000/01/rdf-schema#label" : [ { "type" : "literal", "value" : "Gabriel Boric Font" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { "type" : "literal", "value" : "Gabriel Boric Font" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://purl.org/dc/elements/1.1/identifier" : [ { "type" : "literal", "value" : 4536 , "datatype" : "http://www.w3.org/2001/XMLSchema#integer" } ] ,    "http://xmlns.com/foaf/0.1/givenName" : [ { "type" : "literal", "value" : "Gabriel" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#profession" : [ { "type" : "literal", "value" : "Egresado de Derecho" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#hasBorn" : [ { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/nacimiento" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#hasParliamentaryAppointment" : [ { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/cargo/10316" } ,      { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/cargo/10478" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#hasPositionPeriod" : [ { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/cargo/10316" } ,      { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/cargo/10478" } ] ,    "http://xmlns.com/foaf/0.1/name" : [ { "type" : "literal", "value" : "Gabriel Boric Font" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf" : [ { "type" : "uri", "value" : "http://www.gabrielboric.cl/" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#nationality" : [ { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/pais/chile" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#surnameOfMother" : [ { "type" : "literal", "value" : "Font" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://xmlns.com/foaf/0.1/depiction" : [ { "type" : "uri", "value" : "https://www.bcn.cl/laborparlamentaria/imagen/4536.jpg" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#surnameOfFather" : [ { "type" : "literal", "value" : "Boric" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#bcnPage" : [ { "type" : "uri", "value" : "https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Gabriel_Boric_Font" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#twitterAccount" : [ { "type" : "literal", "value" : "gabrielboric" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "https://www.wikidata.org/wiki/Property:P21" : [ { "type" : "literal", "value" : "hombre" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "https://www.wikidata.org/wiki/Property:P856" : [ { "type" : "uri", "value" : "http://www.gabrielboric.cl/" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#lastUpdate" : [ { "type" : "literal", "value" : "2018-11-29T18:44:31-03:00" , "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#hasMilitancy" : [ { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/militancia/11056" } ,      { "type" : "uri", "value" : "http://datos.bcn.cl/recurso/persona/4536/militancia/11055" } ] ,    "http://xmlns.com/foaf/0.1/gender" : [ { "type" : "literal", "value" : "hombre" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "http://xmlns.com/foaf/0.1/img" : [ { "type" : "uri", "value" : "https://www.bcn.cl/laborparlamentaria/imagen/4536.jpg" } ] ,    "http://xmlns.com/foaf/0.1/thumbnail" : [ { "type" : "uri", "value" : "https://www.bcn.cl/laborparlamentaria/imagen/110x110/4536.jpg" } ] ,    "http://datos.bcn.cl/ontologies/bcn-biographies#idCamaraDeDiputados" : [ { "type" : "literal", "value" : "972" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] ,    "https://www.wikidata.org/wiki/Property:P2002" : [ { "type" : "literal", "value" : "gabrielboric" , "datatype" : "http://www.w3.org/2001/XMLSchema#string" } ] }}
+{
+  "@graph" : [ {
+    "@id" : "congre:Congresista",
+    "subClassOf" : "congre:Persona"
+  }, {
+    "@id" : "congre:congreso",
+    "@type" : "congre:Lugar"
+  }, {
+    "@id" : "congre:gabriel",
+    "email" : "mailto:gabriel.boric@congreso.cl",
+    "fechaNacimiento" : "1986-02-11",
+    "foto" : "gabrielBoric.jpeg",
+    "nombre" : "Gabriel",
+    "primerApellido" : "Boric",
+    "profesion" : "Egresado de Derecho",
+    "reseniaBiografica" : "Gabriel Boric (Punta Arenas, 11 de febrero de 1986). Egresado de Derecho y político del Movimiento Autonomista. Diputado por el 28º Distrito, Región de Magallanes y Antártica Chilena, período 2018-2022. Diputado por el Distrito Nº 60, Región de Magallanes y la Antártica Chilena, período 2014-2018.",
+    "segundoApellido" : "Font",
+    "sitioWeb" : "http://www.gabrielboric.cl/",
+    "trabaja" : "congre:congreso"
+  }, {
+    "@id" : "congre:trabaja",
+    "domain" : "congre:Diputado",
+    "range" : "congre:Lugar"
+  } ],
+  "@context" : {
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "email" : {
+      "@id" : "http://schema.org/email",
+      "@type" : "@id"
+    },
+    "trabaja" : {
+      "@id" : "http://www.congreso.cl/trabaja",
+      "@type" : "@id"
+    },
+    "reseniaBiografica" : {
+      "@id" : "http://schema.org/reseniaBiografica"
+    },
+    "profesion" : {
+      "@id" : "http://schema.org/profesion"
+    },
+    "segundoApellido" : {
+      "@id" : "http://schema.org/segundoApellido"
+    },
+    "fechaNacimiento" : {
+      "@id" : "http://schema.org/fechaNacimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "primerApellido" : {
+      "@id" : "http://schema.org/primerApellido"
+    },
+    "foto" : {
+      "@id" : "http://schema.org/foto"
+    },
+    "nombre" : {
+      "@id" : "http://schema.org/nombre"
+    },
+    "sitioWeb" : {
+      "@id" : "http://schema.org/sitioWeb"
+    },
+    "schema" : "http://schema.org/",
+    "@vocab" : "http://example.org/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "congre" : "http://www.congreso.cl/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

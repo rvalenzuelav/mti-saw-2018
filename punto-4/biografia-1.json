@@ -1,187 +1,82 @@
 {
-  "http://datos.bcn.cl/recurso/persona/4030": {
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri",
-        "value": "https://www.wikidata.org/wiki/Q5"
-      },
-      {
-        "type": "uri",
-        "value": "http://purl.org/vocab/frbr/core#ResponsibleEntity"
-      },
-      {
-        "type": "uri",
-        "value": "http://xmlns.com/foaf/0.1/Person"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "type": "literal",
-        "value": "Felipe Kast Sommerhoff",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://purl.org/dc/elements/1.1/identifier": [
-      {
-        "type": "literal",
-        "value": 4030,
-        "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/givenName": [
-      {
-        "type": "literal",
-        "value": "Felipe",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#profession": [
-      {
-        "type": "literal",
-        "value": "Ingeniero; Doctorado; Mag\u00EDster; Ingeniero Comercial; M\u00E1ster en Econom\u00EDa con menci\u00F3n en Pol\u00EDticas P\u00FAblicas; Doctor en Pol\u00EDticas P\u00FAblicas",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#hasBorn": [
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/nacimiento"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#hasParliamentaryAppointment": [
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/cargo/10452"
-      },
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/cargo/10223"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#hasPositionPeriod": [
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/cargo/10223"
-      },
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/cargo/10452"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
-      {
-        "type": "uri",
-        "value": "http://www.felipekast.cl/"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#nationality": [
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/pais/chile"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#surnameOfMother": [
-      {
-        "type": "literal",
-        "value": "Sommerhoff",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/depiction": [
-      {
-        "type": "uri",
-        "value": "https://www.bcn.cl/laborparlamentaria/imagen/4030.jpg"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#surnameOfFather": [
-      {
-        "type": "literal",
-        "value": "Kast",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#bcnPage": [
-      {
-        "type": "uri",
-        "value": "https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Felipe_Jos\u00E9_Kast_Sommerhoff"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#idSenado": [
-      {
-        "type": "literal",
-        "value": "1223",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#twitterAccount": [
-      {
-        "type": "literal",
-        "value": "felipekast",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "https://www.wikidata.org/wiki/Property:P21": [
-      {
-        "type": "literal",
-        "value": "hombre",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "https://www.wikidata.org/wiki/Property:P856": [
-      {
-        "type": "uri",
-        "value": "http://www.felipekast.cl/"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#lastUpdate": [
-      {
-        "type": "literal",
-        "value": "2018-09-06T17:59:25-03:00",
-        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#hasMilitancy": [
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/militancia/11017"
-      },
-      {
-        "type": "uri",
-        "value": "http://datos.bcn.cl/recurso/persona/4030/militancia/11016"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/gender": [
-      {
-        "type": "literal",
-        "value": "hombre",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/img": [
-      {
-        "type": "uri",
-        "value": "https://www.bcn.cl/laborparlamentaria/imagen/4030.jpg"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/thumbnail": [
-      {
-        "type": "uri",
-        "value": "https://www.bcn.cl/laborparlamentaria/imagen/110x110/4030.jpg"
-      }
-    ],
-    "http://datos.bcn.cl/ontologies/bcn-biographies#idCamaraDeDiputados": [
-      {
-        "type": "literal",
-        "value": "988",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ],
-    "https://www.wikidata.org/wiki/Property:P2002": [
-      {
-        "type": "literal",
-        "value": "felipekast",
-        "datatype": "http://www.w3.org/2001/XMLSchema#string"
-      }
-    ]
+  "@graph" : [ {
+    "@id" : "congre:Congresista",
+    "subClassOf" : "congre:Persona"
+  }, {
+    "@id" : "congre:congreso",
+    "@type" : "congre:Lugar"
+  }, {
+    "@id" : "congre:felipe",
+    "email" : "mailto:fkast@senado.cl",
+    "fechaNacimiento" : "1977-06-09",
+    "foto" : "felipeKast.jpeg",
+    "gradoAcademico" : "Doctor en Políticas Públicas; Magíster en Economía",
+    "nombre" : "Felipe José",
+    "primerApellido" : "Kast",
+    "profesion" : "Ingeniero comercial",
+    "reseniaBiografica" : "Felipe Kast (Santiago, 9 de junio de 1977). Ingeniero comercial, economista y político del Partido Evolución Política (Evópoli). Senador por la 11° Circunscripción, Región de la Araucanía, período 2018-2026. Diputado por el Distrito N° 22, Región Metropolitana, período 2014-2018. Ministro de Planificación entre 2010 y 2011.",
+    "segundoApellido" : "Sommerhoff",
+    "sitioWeb" : "http://araucania.felipekast.cl/",
+    "trabaja" : "congre:congreso"
+  }, {
+    "@id" : "congre:trabaja",
+    "domain" : "congre:Diputado",
+    "range" : "congre:Lugar"
+  } ],
+  "@context" : {
+    "trabaja" : {
+      "@id" : "http://www.congreso.cl/trabaja",
+      "@type" : "@id"
+    },
+    "fechaNacimiento" : {
+      "@id" : "http://schema.org/fechaNacimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "primerApellido" : {
+      "@id" : "http://schema.org/primerApellido"
+    },
+    "nombre" : {
+      "@id" : "http://schema.org/nombre"
+    },
+    "segundoApellido" : {
+      "@id" : "http://schema.org/segundoApellido"
+    },
+    "foto" : {
+      "@id" : "http://schema.org/foto"
+    },
+    "gradoAcademico" : {
+      "@id" : "http://schema.org/gradoAcademico"
+    },
+    "reseniaBiografica" : {
+      "@id" : "http://schema.org/reseniaBiografica"
+    },
+    "profesion" : {
+      "@id" : "http://schema.org/profesion"
+    },
+    "sitioWeb" : {
+      "@id" : "http://schema.org/sitioWeb"
+    },
+    "email" : {
+      "@id" : "http://schema.org/email",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "@vocab" : "http://example.org/",
+    "schema" : "http://schema.org/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "congre" : "http://www.congreso.cl/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
   }
 }
