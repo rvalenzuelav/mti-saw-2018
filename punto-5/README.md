@@ -1,6 +1,6 @@
 **Punto 5.**	*Introducir datos biográficos de políticos chilenos que no estén ya introducidos, en Wikidata y explicar brevemente qué datos se han introducido.*
 
->Se ingresó a Pablo Giordano [link wikidata](https://www.wikidata.org/wiki/Q62558327) y se realizó lo siguiente, primero se instanció como ser humano y político luego se introdujeron siguientes datos: 
+>Se ingresó a [Pablo Giordano](https://www.wikidata.org/wiki/Q62558327) y se realizó lo siguiente, primero se instanció como ser humano y político luego se introdujeron siguientes datos: 
 >
 >* primer nombre, 
 >* segundo nombre, 
@@ -18,7 +18,7 @@
 >* partido político,
 >* lenguas habladas. 
 >
->Se ingresó a Selim Carrasco Toledo [link wikidata](https://www.wikidata.org/wiki/Q62564815) primero se nstanció como ser humano, político y médico.luego se introdujeron siguientes datos:
+>Se ingresó a [Selim Carrasco Toledo](https://www.wikidata.org/wiki/Q62564815) primero se nstanció como ser humano, político y médico.luego se introdujeron siguientes datos:
 >
 >* Nombre de pila,
 >* apellido,
