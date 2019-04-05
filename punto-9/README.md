@@ -11,3 +11,4 @@ Teniendo en cuenta que se trata de un esfuerzo por descentralizar el control de 
 
 >En la imagen que a continuación se presenta, se observa el ecosistema de Solid en su plenitud y como se conforma su especificación técnica o arquitectura de su core.
 
+> ![alt text](https://imgur.com/w0yc9LE "Arquitectura de Ecosistema Solid")
