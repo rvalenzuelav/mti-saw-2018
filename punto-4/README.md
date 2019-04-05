@@ -15,6 +15,7 @@
 > **Validaciones ShEx**:
 > * Validación de Fechas
 > * Opcionalidad de atributos
+> * Validación de atributos de tipo String
 > * Máximo de largo de String
 > * Uso de regex para validar formato de imagen y url de sitio web.
 >
